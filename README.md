@@ -8,7 +8,7 @@ Clone the project.
 git clone https://github.com/bitbinge/parcel-typescript-starter.git
 ```
 
-Remote the `origin` remote so the name can be used later if needed.
+Remove the `origin` remote so the name can be used later if needed.
 
 ```sh
 git remote remove origin
