@@ -32,7 +32,7 @@ Build output will target compatibility with the browsers specified in the `brows
 
 ## Development Dependencies
 
-THe following libaries, plugins and projects are used for development.
+The following libaries, plugins and projects are used for development.
 
 ### [@tsconfig/recommended](https://www.npmjs.com/package/@tsconfig/recommended)
 
