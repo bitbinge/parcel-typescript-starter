@@ -1,0 +1,37 @@
+{
+  "name": "parcel-typescript-starter",
+  "version": "1.0.0",
+  "description": "Parcel Typescript Starter",
+  "author": "bitbinge",
+  "license": "MIT-0",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "poststart": "shx rm -rf .parcel-cache",
+    "prebuild": "shx rm -rf dist/",
+    "build": "parcel build",
+    "eslint-fix-all": "eslint '**/*.{js,ts}' --fix --ignore-path .gitignore",
+    "prettier-write-all": "prettier '**/*.{jsx,js,tsx,ts,html,css,scss,json,md}' --write --ignore-path .gitignore",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "@tsconfig/recommended": "^1.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "parcel": "^2.6.2",
+    "prettier": "^2.7.1",
+    "shx": "^0.3.4",
+    "typescript": "^4.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "lint-staged": {
+    "*.{js, ts}": "eslint --fix",
+    "*.{jsx,js,tsx,ts,html,css,scss,json,md}": "prettier --write"
+  }
+}
