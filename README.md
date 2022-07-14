@@ -2,6 +2,20 @@
 
 A simple starter project that uses [Parcel](https://parceljs.org), [TypeScript](https://www.typescriptlang.org/), [ESlint](https://eslint.org/), and [Prettier](https://prettier.io/).
 
+Clone the project.
+
+```sh
+git clone https://github.com/bitbinge/parcel-typescript-starter.git
+```
+
+Remote the `origin` remote so the name can be used later if needed.
+
+```sh
+git remote remove origin
+```
+
+Happy coding!
+
 ## Dev Server
 
 To start the development server, run `npm start`.
